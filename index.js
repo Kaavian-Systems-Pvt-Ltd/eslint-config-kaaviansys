@@ -1,6 +1,5 @@
 module.exports = {
-   
-    rules: {
+   rules: {
         "no-dupe-keys": "error",
         "no-duplicate-case": "error",           
         "no-duplicate-imports": "error",
@@ -35,13 +34,11 @@ module.exports = {
         "comma-style": ["error", "last"],
         "dot-location": ["error", "property"],
         "func-call-spacing": ["error", "always", { "allowNewlines": false }],
-        "function-call-argument-newline": ["error", "never"],
         "generator-star-spacing": ["error", {"before": true, "after": true}],
         "implicit-arrow-linebreak": ["error", "beside"],
         "jsx-quotes": ["error", "prefer-single"],
         "key-spacing": ["error", { "beforeColon": true,"afterColon": true }],
         "line-comment-position": ["error", { "position": "above" }],
-        "max-len": ["error", { "code": 70,"comments": 50,"ignoreUrls": true }],
         "max-statements-per-line": ["error", { "max": 1 }],
         "multiline-ternary": ["error", "never"],
         "no-multiple-empty-lines": ["error", { "max": 2}],
@@ -52,6 +49,8 @@ module.exports = {
         "semi": ["error", "always"],
         "semi-style": ["error", "last"],
         "semi-spacing": ["error", { "before": false, "after": false }],
-        "space-infix-ops": ["error"]
+        "space-infix-ops": ["error"],
+        "react/react-in-jsx-scope": "off",
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx",".ts"] }]
     }
 }
