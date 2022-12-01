@@ -51,6 +51,6 @@ module.exports = {
         "semi-spacing": ["error", { "before": false, "after": false }],
         "space-infix-ops": ["error"],
         "react/react-in-jsx-scope": "off",
-        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx",".ts"] }]
+   
     }
 }
