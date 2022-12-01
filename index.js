@@ -50,7 +50,7 @@ module.exports = {
         "semi-style": ["error", "last"],
         "semi-spacing": ["error", { "before": false, "after": false }],
         "space-infix-ops": ["error"],
-        "react/react-in-jsx-scope": "off",
+        "react/react-in-jsx-scope": "off"
    
     }
 }
