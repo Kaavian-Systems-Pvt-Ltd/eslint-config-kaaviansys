@@ -52,10 +52,6 @@ module.exports = {
         "semi": ["error", "always"],
         "semi-style": ["error", "last"],
         "semi-spacing": ["error", { "before": false, "after": false }],
-        "space-infix-ops": ["error"],
-        "parserOptions": {
-            "sourceType": "module"
-        }
-        
+        "space-infix-ops": ["error"]
     }
 }
