@@ -60,10 +60,13 @@
 }
 ```
 
+# Problem
+
+
 # Rules
 
  | Name                                                                                             | Description                                                                                                                                                                                                     
-| :----------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| :----------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------
 | no-dupe-keys                                                    | This rule disallows duplicate keys in object literals.                                                                                                                                              
 | no-duplicate-case                                             | This rule disallows duplicate test expressions in case clauses of switch statements.   
 |no-duplicate-imports                                             |This rule requires that all imports from a single module that can be merged exist in a single import statement.  
