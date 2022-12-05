@@ -27,7 +27,7 @@
 
 ># Install
 >
->>npm install --save eslint-config-kaaviansys
+>>npm install --save-dev eslint-config-kaaviansys
 
 # **Usage**
 
