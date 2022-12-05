@@ -62,10 +62,10 @@
 
 # Problem
 
-maybe this linting error is not working in our project client folder ,
+>maybe this linting error is not working in our project client folder ,
 insert below command in "./eslintrc.json" file.
 
-"parserOptions": {
+>>"parserOptions": {
 "ecmaVersion": "latest", "sourceType": "module",
 "allowImportExportEverywhere": true
 }
