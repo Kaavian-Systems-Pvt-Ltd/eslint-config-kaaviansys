@@ -7,7 +7,7 @@ module.exports = {
         "no-use-before-define": "error",         
         "default-case": "error",
         "eqeqeq": ["error", "always"],
-        "func-style": ["warning", "expression"],                                   
+        "func-style": ["error", "expression"],                                   
         "no-console": "error",
         "no-empty": "error",
         "no-empty-function": "error",
