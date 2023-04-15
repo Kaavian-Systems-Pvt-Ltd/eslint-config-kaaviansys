@@ -10,7 +10,6 @@ module.exports = {
          "func-style": ["error", "expression"],                                   
          "no-console": "error",
          "no-empty": "error",
-         "no-empty-function": "error",
          "no-extra-semi": "error",
          "no-inline-comments": "error",
          "no-lonely-if": "error",
@@ -24,29 +23,28 @@ module.exports = {
          "array-bracket-newline": ["error", "never"],
          "array-bracket-spacing": ["error", "always"],
          "array-element-newline": ["error", "never"],
-         "arrow-spacing": ["error", { "before": false, "after": true }],
+         // modified
+         "arrow-spacing": ["error", { "before": true, "after": false }],
          "brace-style": "error",
          "comma-dangle": ["error", "never"],
-         "comma-spacing": ["error", { "before": true, "after": true }],
+         // modified
+         "comma-spacing": ["error", { "before": false, "after": true }],
          "comma-style": ["error", "last"],
-         "dot-location": ["error", "property"],
          "func-call-spacing": ["error", "always", { "allowNewlines": false }],
-         "generator-star-spacing": ["error", {"before": true, "after": true}],
          "implicit-arrow-linebreak": ["error", "beside"],
          "jsx-quotes": ["error", "prefer-single"],
-         "key-spacing": ["error", { "beforeColon": true,"afterColon": true }],
+         // modified
+         "key-spacing": ["error", { "beforeColon": false,"afterColon": false }],
          "line-comment-position": ["error", { "position": "above" }],
          "max-statements-per-line": ["error", { "max": 1 }],
          "no-multiple-empty-lines": ["error", { "max": 2}],
          "no-whitespace-before-property": "error",
-         "object-curly-spacing": ["error", "always"],
+         // modified
+         "object-curly-spacing": ["error", "never"],
          "operator-linebreak": ["error", "before"],
          "quotes": ["error", "single"],
          "semi": ["error", "always"],
          "semi-style": ["error", "last"],
          "semi-spacing": ["error", { "before": false, "after": false }],
-         "space-infix-ops": "error"
-         // "react/react-in-jsx-scope": "off"
-    
      }
  }
