@@ -20,9 +20,9 @@ module.exports = {
          "prefer-template": "error",
          "quote-props": ["error", "always"],
          "spaced-comment": ["error", "always"] ,
-         "array-bracket-newline": ["error", "never"],
-         "array-bracket-spacing": ["error", "always"],
-         "array-element-newline": ["error", "never"],
+         "array-bracket-spacing": ["error", "never"],
+         // modified
+         "array-element-newline": ["error", "always"],
          // modified
          "arrow-spacing": ["error", { "before": true, "after": false }],
          "brace-style": "error",
