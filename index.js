@@ -22,8 +22,6 @@ module.exports = {
          "spaced-comment": ["error", "always"] ,
          "array-bracket-spacing": ["error", "never"],
          // modified
-         "array-element-newline": ["error", "always"],
-         // modified
          "arrow-spacing": ["error", { "before": true, "after": false }],
          "brace-style": "error",
          "comma-dangle": ["error", "never"],
