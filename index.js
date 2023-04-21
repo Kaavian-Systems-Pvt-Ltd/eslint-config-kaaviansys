@@ -46,7 +46,5 @@ module.exports = {
     "semi-spacing": ["error", { "before": false, "after": false }],
     // added
     "indent": ["error", 2],
-    // added
-    "max-len": ["error", { "code": 120 }]
   }
 }
